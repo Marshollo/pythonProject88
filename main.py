@@ -95,9 +95,20 @@ def zad_2_33():
 
 
 
- def zad_2_41():
 
-     liczba=input("wprowadz ciag  ")
+def zad_2_41():
+
+     liczba=eval(input("wprowadz ciag  "))
+     wyraz1 = 0
+
+     for i in range(liczba):
+         wyraz0=i
+         wyraz1+=1
+         wyraz2=wyraz1+i
+
+         print(wyraz2)
+
+zad_2_41()
 
 
 
