@@ -43,14 +43,6 @@ def zad_2_16():
     print("wspólna ", zbior_1.intersection(zbior_2))
 
 
-# print("zad 2_9\n")
-# zad_2_9()
-# print("\nzad 2_15\n")
-# zad_2_15()
-# print("\nzad 2_16")
-# zad_2_16()
-
-# lista 3
 def zad_2_17():
     liczba = eval(input("podaj liczbę: "))
 
@@ -60,9 +52,6 @@ def zad_2_17():
         print("Liczba jest ujemna ")
     elif liczba == 0:
         print("liczba jest zerem ")
-
-
-# zad_2_17()
 
 
 def zad_2_33():
@@ -133,4 +122,29 @@ def zad_2_56():
     print(str_slowa)
 
 
-zad_2_56()
+i = True
+while i:
+    x = eval(
+        input("\nWprowadź numer zadania, do wyboru: \n Zadanie 2_9 = 1\n Zadanie 2_15 = 2\n Zadanie 2_16 = 3\n Zadanie "
+              "2_17 = 4\n Zadanie 2_33 = 5\n Zadanie 2_40 = 6\n Zadanie 2_41 = 7\n Zadanie 2_47 = 8\n Zadanie 2_56 = "
+              "9\n Wyjście = 0\n Wybierasz: "))
+    if x == 1:
+        zad_2_9()
+    elif x == 2:
+        zad_2_15()
+    elif x == 3:
+        zad_2_16()
+    elif x == 4:
+        zad_2_17()
+    elif x == 5:
+        zad_2_33()
+    elif x == 6:
+        zad_2_40()
+    elif x == 7:
+        zad_2_41()
+    elif x == 8:
+        zad_2_41()
+    elif x == 9:
+        zad_2_56()
+    elif x == 0:
+        i = False
